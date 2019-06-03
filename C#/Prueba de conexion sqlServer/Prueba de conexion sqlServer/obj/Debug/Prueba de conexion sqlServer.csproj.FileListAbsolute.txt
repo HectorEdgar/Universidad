@@ -1,0 +1,9 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Prueba de conexion sqlServer\Prueba de conexion sqlServer\bin\Debug\Prueba de conexion sqlServer.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Prueba de conexion sqlServer\Prueba de conexion sqlServer\obj\Debug\Prueba de conexion sqlServer.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Prueba de conexion sqlServer\Prueba de conexion sqlServer\obj\Debug\Prueba_de_conexion_sqlServer.Form1.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Prueba de conexion sqlServer\Prueba de conexion sqlServer\obj\Debug\Prueba_de_conexion_sqlServer.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Prueba de conexion sqlServer\Prueba de conexion sqlServer\obj\Debug\Prueba de conexion sqlServer.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Prueba de conexion sqlServer\Prueba de conexion sqlServer\bin\Debug\Prueba de conexion sqlServer.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Prueba de conexion sqlServer\Prueba de conexion sqlServer\bin\Debug\Prueba de conexion sqlServer.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Prueba de conexion sqlServer\Prueba de conexion sqlServer\obj\Debug\Prueba de conexion sqlServer.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Prueba de conexion sqlServer\Prueba de conexion sqlServer\obj\Debug\Prueba de conexion sqlServer.pdb

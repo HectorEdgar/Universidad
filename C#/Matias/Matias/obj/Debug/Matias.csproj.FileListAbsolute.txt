@@ -1,0 +1,6 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Matias\Matias\bin\Matias.dll.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Matias\Matias\bin\Matias.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Matias\Matias\bin\Matias.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Matias\Matias\obj\Debug\Matias.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Matias\Matias\obj\Debug\Matias.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Matias\Matias\obj\Debug\Matias.pdb

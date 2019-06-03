@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="securityModel1StoreContainer" CdmEntityContainer="securityEntities1">
+    <EntitySetMapping Name="Usser">
+      <EntityTypeMapping TypeName="securityModel1.Usser">
+        <MappingFragment StoreEntitySet="Usser">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="isOnline" ColumnName="isOnline" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

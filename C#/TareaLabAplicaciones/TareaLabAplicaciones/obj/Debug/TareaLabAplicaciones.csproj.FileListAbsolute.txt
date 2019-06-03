@@ -1,0 +1,9 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TareaLabAplicaciones\TareaLabAplicaciones\bin\Debug\TareaLabAplicaciones.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TareaLabAplicaciones\TareaLabAplicaciones\obj\Debug\TareaLabAplicaciones.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TareaLabAplicaciones\TareaLabAplicaciones\obj\Debug\TareaLabAplicaciones.Form1.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TareaLabAplicaciones\TareaLabAplicaciones\obj\Debug\TareaLabAplicaciones.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TareaLabAplicaciones\TareaLabAplicaciones\obj\Debug\TareaLabAplicaciones.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TareaLabAplicaciones\TareaLabAplicaciones\bin\Debug\TareaLabAplicaciones.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TareaLabAplicaciones\TareaLabAplicaciones\bin\Debug\TareaLabAplicaciones.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TareaLabAplicaciones\TareaLabAplicaciones\obj\Debug\TareaLabAplicaciones.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TareaLabAplicaciones\TareaLabAplicaciones\obj\Debug\TareaLabAplicaciones.pdb

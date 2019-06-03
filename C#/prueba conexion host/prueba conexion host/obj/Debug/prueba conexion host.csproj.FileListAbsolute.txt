@@ -1,0 +1,10 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba conexion host\prueba conexion host\bin\Debug\prueba conexion host.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba conexion host\prueba conexion host\bin\Debug\prueba conexion host.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba conexion host\prueba conexion host\bin\Debug\prueba conexion host.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba conexion host\prueba conexion host\bin\Debug\MySql.Data.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba conexion host\prueba conexion host\obj\Debug\prueba conexion host.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba conexion host\prueba conexion host\obj\Debug\prueba_conexion_host.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba conexion host\prueba conexion host\obj\Debug\prueba conexion host.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba conexion host\prueba conexion host\obj\Debug\prueba conexion host.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba conexion host\prueba conexion host\obj\Debug\prueba conexion host.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba conexion host\prueba conexion host\obj\Debug\prueba_conexion_host.Form1.resources

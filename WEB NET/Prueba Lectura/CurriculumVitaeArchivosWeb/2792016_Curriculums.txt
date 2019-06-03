@@ -1,0 +1,96 @@
+Nombre: Hector Edgar Matias Rodriguez
+<br>
+Direccion: Direccion1
+<br>
+Telefono: 124134
+<br>
+Email: Email@Gmail.com
+<br>
+Lugar y Fecha de Nacimiento: Lugar1
+<br>
+Estado Civil: Estado1
+<br>
+Nacionalidad: Nacionalidad1
+<br>
+Edad: 20
+<br>
+Peso: 53
+<br>
+Primaria: Primaria1
+<br>
+Secundaria: Secundari1
+<br>
+Preparatoria: Preparatoria1
+<br>
+Licenciatura: Licenciatura1
+<br>
+Postgrado: Postgrado1
+<br>
+Maestria: Maestria1
+<br>
+<br>
+<hr>
+Nombre: Jair Christian Olmnedo Carbajal
+<br>
+Direccion: Direccion2
+<br>
+Telefono: 123412453
+<br>
+Email: Email2@Gmail.com
+<br>
+Lugar y Fecha de Nacimiento: Lugar2
+<br>
+Estado Civil: Estado2
+<br>
+Nacionalidad: Nacionalidad2
+<br>
+Edad: 21
+<br>
+Peso: 56
+<br>
+Primaria: Primaria2
+<br>
+Secundaria: Secundari2
+<br>
+Preparatoria: Preparatoria2
+<br>
+Licenciatura: Licenciatura2
+<br>
+Postgrado: Postgrado2
+<br>
+Maestria: Maestria2
+<br>
+<br>
+<hr>
+Nombre: persona1
+<br>
+Direccion: Direccion1
+<br>
+Telefono: 122345
+<br>
+Email: Email@Gmail.com
+<br>
+Lugar y Fecha de Nacimiento: Lugar1
+<br>
+Estado Civil: Estado1
+<br>
+Nacionalidad: Nacionalidad1
+<br>
+Edad: 12
+<br>
+Peso: 32
+<br>
+Primaria: Primaria1
+<br>
+Secundaria: Secundari1
+<br>
+Preparatoria: Preparatoria1
+<br>
+Licenciatura: Licenciatura1
+<br>
+Postgrado: Postgrado1
+<br>
+Maestria: Maestria1
+<br>
+<br>
+<hr>

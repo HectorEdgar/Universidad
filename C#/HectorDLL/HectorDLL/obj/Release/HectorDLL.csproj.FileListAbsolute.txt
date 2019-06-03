@@ -1,0 +1,8 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\HectorDLL\HectorDLL\bin\Release\HectorDLL.dll.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\HectorDLL\HectorDLL\bin\Release\HectorDLL.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\HectorDLL\HectorDLL\bin\Release\HectorDLL.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\HectorDLL\HectorDLL\bin\Release\EntityFramework.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\HectorDLL\HectorDLL\bin\Release\EntityFramework.xml
+c:\users\héctoredgar\documents\visual studio 2015\Projects\HectorDLL\HectorDLL\obj\Release\HectorDLL.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\HectorDLL\HectorDLL\obj\Release\HectorDLL.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\HectorDLL\HectorDLL\obj\Release\HectorDLL.pdb

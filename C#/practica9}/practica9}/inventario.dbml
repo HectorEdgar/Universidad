@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="inventario" Class="inventarioDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=inventario;Integrated Security=True" SettingsObjectName="practica9_.Properties.Settings" SettingsPropertyName="inventarioConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.products" Member="products">
+    <Type Name="products">
+      <Column Name="productoId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="productCode" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="price" Type="System.Decimal" DbType="Decimal(7,2)" CanBeNull="true" />
+      <Column Name="supplierId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="suppliers_products" Member="suppliers" ThisKey="supplierId" OtherKey="suplierId" Type="suppliers" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.suppliers" Member="suppliers">
+    <Type Name="suppliers">
+      <Column Name="suplierId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="phone" Type="System.String" DbType="Char(8)" CanBeNull="true" />
+      <Association Name="suppliers_products" Member="products" ThisKey="suplierId" OtherKey="supplierId" Type="products" />
+    </Type>
+  </Table>
+</Database>

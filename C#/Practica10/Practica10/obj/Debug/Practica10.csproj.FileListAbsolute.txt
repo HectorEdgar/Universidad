@@ -1,0 +1,9 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica10\Practica10\bin\Debug\Practica10.exe.config
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\Practica10\Practica10\bin\Debug\Practica10.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\Practica10\Practica10\bin\Debug\Practica10.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\Practica10\Practica10\obj\Debug\Practica10.csprojResolveAssemblyReference.cache
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\Practica10\Practica10\obj\Debug\Practica10.Form1.resources
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\Practica10\Practica10\obj\Debug\Practica10.Properties.Resources.resources
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\Practica10\Practica10\obj\Debug\Practica10.csproj.GenerateResource.Cache
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\Practica10\Practica10\obj\Debug\Practica10.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\Practica10\Practica10\obj\Debug\Practica10.pdb

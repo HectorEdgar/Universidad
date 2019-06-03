@@ -1,0 +1,10 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\examen\examen\bin\Debug\examen.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\examen\examen\bin\Debug\examen.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\examen\examen\bin\Debug\examen.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\examen\examen\obj\Debug\examen.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\examen\examen\obj\Debug\examen.Form1.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\examen\examen\obj\Debug\examen.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\examen\examen\obj\Debug\examen.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\examen\examen\obj\Debug\examen.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\examen\examen\obj\Debug\examen.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\examen\examen\bin\Debug\MySql.Data.dll

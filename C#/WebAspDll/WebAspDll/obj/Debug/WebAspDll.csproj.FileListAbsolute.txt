@@ -1,0 +1,10 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\WebAspDll\WebAspDll\bin\WebAspDll.dll.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\WebAspDll\WebAspDll\bin\WebAspDll.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\WebAspDll\WebAspDll\bin\WebAspDll.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\WebAspDll\WebAspDll\bin\ClassLibrary1.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\WebAspDll\WebAspDll\bin\EntityFramework.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\WebAspDll\WebAspDll\bin\ClassLibrary1.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\WebAspDll\WebAspDll\bin\EntityFramework.xml
+c:\users\héctoredgar\documents\visual studio 2015\Projects\WebAspDll\WebAspDll\obj\Debug\WebAspDll.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\WebAspDll\WebAspDll\obj\Debug\WebAspDll.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\WebAspDll\WebAspDll\obj\Debug\WebAspDll.pdb

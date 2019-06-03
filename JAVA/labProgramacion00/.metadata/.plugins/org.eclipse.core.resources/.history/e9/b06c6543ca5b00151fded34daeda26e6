@@ -1,0 +1,55 @@
+
+public class EmpleadoTest {
+	public static void main(String ... args){
+		Empleado empleado1 = new Empleado();
+		empleado1.setId("1");
+		empleado1.setNombre("clark kent");
+		empleado1.setFechaNacimiento("01-01-1997");
+		empleado1.setSexo("Hombre");
+		empleado1.setNss("121");
+		empleado1.setSueldo("1000");
+		
+		//Domicilio Particular 1
+		Domicilio domicilioParticular1= new Domicilio();
+		domicilioParticular1.setCalle("calle1");
+		domicilioParticular1.setColonia("colonia1");
+		domicilioParticular1.setMunicipio("Municipio1");
+		domicilioParticular1.setEntidadFederativa("entidad1");
+		domicilioParticular1.setCp("cp1");
+		
+		//Domicilio Particular 1
+		Domicilio domicilioParticular2= new Domicilio();
+		domicilioParticular2.setCalle("calle2");
+		domicilioParticular2.setColonia("colonia2");
+		domicilioParticular2.setMunicipio("Municipio2");
+		domicilioParticular2.setEntidadFederativa("entidad2");
+		domicilioParticular2.setCp("cp2");
+
+		//Domicilio Fiscal 1
+		Domicilio domicilioFiscal1= new Domicilio();
+		domicilioFiscal1.setCalle("calle1");
+		domicilioFiscal1.setColonia("colonia1");
+		domicilioFiscal1.setMunicipio("Municipio1");
+		domicilioFiscal1.setEntidadFederativa("entidad1");
+		domicilioFiscal1.setCp("cp1");
+		
+		//Domicilio Fiscal 2
+		Domicilio domicilioFiscal2= new Domicilio();
+		domicilioFiscal2.setCalle("calle2");
+		domicilioFiscal2.setColonia("colonia2");
+		domicilioFiscal2.setMunicipio("Municipio2");
+		domicilioFiscal2.setEntidadFederativa("entidad2");
+		domicilioFiscal2.setCp("cp2");
+		
+		empleado1.setDomiciliosParticular(domicilioParticular1);
+		empleado1.setDomiciliosParticular(domicilioParticular2);
+		empleado1.setDomiciliosFiscales(domicilioFiscal1);
+		empleado1.setDomiciliosFiscales(domicilioFiscal2);
+		
+		Empleado[] empleados = new Empleado[3];
+		empleados[0]=empleado1;
+		
+		
+	}
+
+}

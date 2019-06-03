@@ -1,0 +1,2 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Hector1DLL1\Hector1DLL1\bin\Debug\Hector1DLL1.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Hector1DLL1\Hector1DLL1\obj\Debug\Hector1DLL1.csprojResolveAssemblyReference.cache

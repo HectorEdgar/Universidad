@@ -1,0 +1,13 @@
+package snippet;
+
+public class Snippet {
+	for(Domicilio d:e.getDomiciliosParticular()) {
+				System.out.printf("DomicilioParticular: %s %s %s %s %s%n ",
+						d.getCalle(),
+						d.getColonia(),
+						d.getEntidadFederativa(),
+						d.getCp(),
+						d.getMunicipio());
+				}
+}
+

@@ -1,0 +1,68 @@
+package mx.edu.ulsaoaxaca.interfaz;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+@SuppressWarnings("serial")
+public class PanelMenuAltaEmpleado extends JPanel {
+	private JLabel jlTituloAlta;
+	private JButton jbEmpleado;
+	private JButton jbDirectivo;
+	private JButton jbEjecutivo;
+
+	public PanelMenuAltaEmpleado() {
+		this.setLayout(null);
+		int y = 130;
+		this.jlTituloAlta = new JLabel("Menu alta de empleado");
+		this.jlTituloAlta.setBounds(320, y-30, 200, 40);
+
+		this.jbEmpleado = new JButton("Empleado");
+		this.jbEmpleado.setBounds(300, y+50, 200, 40);
+
+		this.jbDirectivo = new JButton("Directivo");
+		this.jbDirectivo.setBounds(300, y+100, 200, 40);
+
+		this.jbEjecutivo = new JButton("Ejecutivo");
+		this.jbEjecutivo.setBounds(300, y+150, 200, 40);
+
+		this.add(jlTituloAlta);
+		this.add(jbEmpleado);
+		this.add(jbDirectivo);
+		this.add(jbEjecutivo);
+
+		this.jbEmpleado.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				// TODO Auto-generated method stub
+
+			}
+
+		});
+
+		this.jbEjecutivo.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+
+			}
+		});
+
+		this.jbDirectivo.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+
+			}
+
+		});
+
+	}
+
+}

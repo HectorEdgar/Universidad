@@ -1,0 +1,11 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba1\prueba1\bin\Debug\prueba1.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba1\prueba1\bin\Debug\prueba1.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba1\prueba1\bin\Debug\prueba1.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba1\prueba1\bin\Debug\prueba1.xml
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba1\prueba1\obj\Debug\prueba1.vbprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba1\prueba1\obj\Debug\prueba1.Form1.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba1\prueba1\obj\Debug\prueba1.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba1\prueba1\obj\Debug\prueba1.vbproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba1\prueba1\obj\Debug\prueba1.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba1\prueba1\obj\Debug\prueba1.xml
+c:\users\héctoredgar\documents\visual studio 2015\Projects\prueba1\prueba1\obj\Debug\prueba1.pdb

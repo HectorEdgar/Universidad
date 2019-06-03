@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="almacen" Class="AlmacenDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=almacen;Integrated Security=True" SettingsObjectName="Practica10.Properties.Settings" SettingsPropertyName="almacenConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.clientes" Member="clientes">
+    <Type Name="clientes">
+      <Column Name="codigo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="clientes_compras" Member="compras" ThisKey="codigo" OtherKey="codigoCliente" Type="compras" />
+    </Type>
+  </Table>
+  <Table Name="dbo.compras" Member="compras">
+    <Type Name="compras">
+      <Column Name="codigoCliente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="identificadorProducto" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="fechaHoraCompra" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="clientes_compras" Member="clientes" ThisKey="codigoCliente" OtherKey="codigo" Type="clientes" IsForeignKey="true" />
+      <Association Name="productos_compras" Member="productos" ThisKey="identificadorProducto" OtherKey="identificador" Type="productos" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.productos" Member="productos">
+    <Type Name="productos">
+      <Column Name="identificador" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="precio" Type="System.Decimal" DbType="Decimal(15,2)" CanBeNull="true" />
+      <Association Name="productos_compras" Member="compras" ThisKey="identificador" OtherKey="identificadorProducto" Type="compras" />
+    </Type>
+  </Table>
+</Database>

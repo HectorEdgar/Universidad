@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Foro de prueba</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <h1>Foro generico</h1>
+            <h4>Ing. Software y Sistemas Computacionales</h4>
+        </header>
+        
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+           
+            
+        </asp:ContentPlaceHolder>
+    </div>
+        <footer>Todos los derechos Reservado 2016</footer>
+    </form>
+</body>
+</html>

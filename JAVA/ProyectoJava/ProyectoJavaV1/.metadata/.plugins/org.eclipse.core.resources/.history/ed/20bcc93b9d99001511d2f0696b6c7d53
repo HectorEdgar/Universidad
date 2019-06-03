@@ -1,0 +1,71 @@
+package mx.edu.ulsaoaxaca.Dao;
+
+import mx.edu.ulsaoaxaca.Dominio.Domicilio;
+import mx.edu.ulsaoaxaca.Dominio.Empleado;
+
+public class EmpleadoDaoImpl implements EmpleadoDao {
+
+	@Override
+	public int GrabarEmpleado(Empleado emp) {
+		String nombre = emp.getNombre();
+		String fecha = emp.getFechaNacimiento();
+		String nss = emp.getNss();
+		String sexo = emp.getSexo();
+		String sueldo = emp.getSueldo();
+		String id = emp.getId();
+		DataSource data = new DataSourceImpl();
+
+		String consulta1 = "INSERT INTO PERSONAS(PERS_NOMBRE," + "PERS_FECHA_NACIMIENTO," + "PERS_SEXO,"
+				+ "PERSONA_ID) " + "VALUES('" + nombre + "','" + fecha + "','" + sexo + "','" + id + "'" + ");";
+		String consulta2 = "INSERT INTO EMPLEADOS(EMPL_PERSONA_ID,EMPLEADO_ID,EMPL_SUELDO,EMPL_NSS) +" + "VALUES(" + id
+				+ "," + id + "," + sueldo + ",'" + nss + "'";
+
+		
+		for (Domicilio e : emp.getDomiciliosParticulares()) {
+			int idDomicilio = (int) System.currentTimeMillis();
+			// String particular = " " + e.getCalle() + " " + e.getColonia() + "
+			// " + e.getEntidadFederativa() + " "
+			// + e.getMunicipio() + " " + e.getCp();
+			String consulta3 = "INSERT INTO DOMICILIOS(DOMICILIO_ID,DOMI_CALLE,DOMI_COLONIA,DOMI_MUNICIPIO,DOMI_ENTIDAD_FEDERATIVA,DOMI_CP) "
+					+ "VALUES(" + idDomicilio + ",'" + e.getCalle() + "','" + e.getColonia() + "','"
+					+ e.getEntidadFederativa() + "','" + e.getMunicipio() + "','" + e.getCp() + "');";
+
+			String consulta4 = "INSERT INTO empleadospordomicilios(Empleado_EMPLEADO_ID,Domicilio_DOMICILIO_ID,CLASE_DOMICILIO_TIPO_DOMICILIO_ID) "
+					+ "VALUES(" + emp.getId() + "," + idDomicilio + ",1";
+
+			data.ejecutarActualizacion(consulta3);
+			data.ejecutarConsulta(consulta4);
+		}
+		
+		for (Domicilio e : emp.getDomiciliosFiscales()) {
+			int idDomicilio = (int) System.currentTimeMillis();
+			// String particular = " " + e.getCalle() + " " + e.getColonia() + "
+			// " + e.getEntidadFederativa() + " "
+			// + e.getMunicipio() + " " + e.getCp();
+			String consulta3 = "INSERT INTO DOMICILIOS(DOMICILIO_ID,DOMI_CALLE,DOMI_COLONIA,DOMI_MUNICIPIO,DOMI_ENTIDAD_FEDERATIVA,DOMI_CP) "
+					+ "VALUES(" + idDomicilio + ",'" + e.getCalle() + "','" + e.getColonia() + "','"
+					+ e.getEntidadFederativa() + "','" + e.getMunicipio() + "','" + e.getCp() + "');";
+
+			String consulta4 = "INSERT INTO empleadospordomicilios(Empleado_EMPLEADO_ID,Domicilio_DOMICILIO_ID,CLASE_DOMICILIO_TIPO_DOMICILIO_ID) "
+					+ "VALUES(" + emp.getId() + "," + idDomicilio + ",2";
+
+			data.ejecutarActualizacion(consulta3);
+			data.ejecutarConsulta(consulta4);
+		}
+		
+		int filasafectadas1=data.ejecutarActualizacion(consulta2);
+		int filasafectadas2=data.ejecutarActualizacion(consulta1);
+		
+		if(filasafectadas1==0){
+			return 0;
+		}else if(filasafectadas2==0){
+			return 0;
+		}
+		
+		
+
+		return 1;
+
+	}
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dominio.Cuenta"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dao.CuentaDao"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dao.CuentaDaoImpl"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.interfaz.PanelMenuAltaEmpleado"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dominio.Domicilio"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dominio.Empleado"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dao.EmpleadoDao"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dao.EmpleadoDaoImpl"/>
+<fullyQualifiedTypeName name="javax.swing.JCheckBox"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dominio.Ejecutivo"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dao.EjecutivoDao"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dao.EjecutivoDaoImpl"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dominio.Directivo"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dao.DirectivoDao"/>
+<fullyQualifiedTypeName name="mx.edu.ulsaoaxaca.Dao.DirectivoDaoImpl"/>
+</qualifiedTypeNameHistroy>

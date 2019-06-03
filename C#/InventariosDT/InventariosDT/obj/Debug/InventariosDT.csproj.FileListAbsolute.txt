@@ -1,0 +1,36 @@
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\bin\Debug\InventariosDT.exe.config
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\bin\Debug\InventariosDT.exe
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\bin\Debug\InventariosDT.pdb
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.csprojResolveAssemblyReference.cache
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.Form1.resources
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.Properties.Resources.resources
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.csproj.GenerateResource.Cache
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.exe
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.pdb
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\bin\Debug\DevComponents.DotNetBar2.dll
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\bin\Debug\DevComponents.DotNetBar2.xml
+c:\users\habbo\documents\visual studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.Form2.resources
+F:\InventariosDT\InventariosDT\bin\Debug\InventariosDT.exe.config
+F:\InventariosDT\InventariosDT\obj\Debug\InventariosDT.exe
+F:\InventariosDT\InventariosDT\obj\Debug\InventariosDT.pdb
+F:\InventariosDT\InventariosDT\bin\Debug\InventariosDT.exe
+F:\InventariosDT\InventariosDT\bin\Debug\InventariosDT.pdb
+F:\InventariosDT\InventariosDT\bin\Debug\DevComponents.DotNetBar2.xml
+F:\InventariosDT\InventariosDT\obj\Debug\InventariosDT.csprojResolveAssemblyReference.cache
+F:\InventariosDT\InventariosDT\obj\Debug\InventariosDT.Form1.resources
+F:\InventariosDT\InventariosDT\obj\Debug\InventariosDT.Form2.resources
+F:\InventariosDT\InventariosDT\obj\Debug\InventariosDT.Properties.Resources.resources
+F:\InventariosDT\InventariosDT\obj\Debug\InventariosDT.csproj.GenerateResource.Cache
+F:\InventariosDT\InventariosDT\bin\Debug\MySql.Data.dll
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\bin\Debug\InventariosDT.exe.config
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\bin\Debug\InventariosDT.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\bin\Debug\InventariosDT.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\bin\Debug\MySql.Data.dll
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.csprojResolveAssemblyReference.cache
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.Form1.resources
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.Form2.resources
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.Properties.Resources.resources
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\InventariosDT\InventariosDT\obj\Debug\InventariosDT.csproj.GenerateResource.Cache

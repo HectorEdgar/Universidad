@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tarea Aplicación de Master Page", "..\..\WebSites\Tarea Aplicación de Master Page\", "{C5815558-31CA-4000-B632-76EED047D671}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_7549"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\Tarea Aplicación de Master Page\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7549\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_7549"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\Tarea Aplicación de Master Page\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7549\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "7549"
+		SlnRelativePath = "..\..\WebSites\Tarea Aplicación de Master Page\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5815558-31CA-4000-B632-76EED047D671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5815558-31CA-4000-B632-76EED047D671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

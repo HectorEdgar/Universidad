@@ -1,0 +1,9 @@
+package mx.edu.ulsaoaxaca.Dao;
+
+
+
+public interface CuentaDao {
+	
+	public Cuenta ValidarUsuario(Cuenta cuenta);
+	
+}

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="securityBdStoreContainer" CdmEntityContainer="securityEntities2">
+    <EntitySetMapping Name="Controls">
+      <EntityTypeMapping TypeName="securityBd.Control">
+        <MappingFragment StoreEntitySet="Control">
+          <ScalarProperty Name="controlID" ColumnName="controlID" />
+          <ScalarProperty Name="controlName" ColumnName="controlName" />
+          <ScalarProperty Name="parentControlID" ColumnName="parentControlID" />
+          <ScalarProperty Name="controlTypeID" ColumnName="controlTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ControlTypes">
+      <EntityTypeMapping TypeName="securityBd.ControlType">
+        <MappingFragment StoreEntitySet="ControlType">
+          <ScalarProperty Name="controlTypeID" ColumnName="controlTypeID" />
+          <ScalarProperty Name="controlTypeName" ColumnName="controlTypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="securityBd.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleDescription" ColumnName="RoleDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="userAutentications">
+      <EntityTypeMapping TypeName="securityBd.userAutentication">
+        <MappingFragment StoreEntitySet="userAutentication">
+          <ScalarProperty Name="userAutenticationID" ColumnName="userAutenticationID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="UserAutenticationTypeID" ColumnName="UserAutenticationTypeID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Passwordd" ColumnName="Passwordd" />
+          <ScalarProperty Name="userEmail" ColumnName="userEmail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserAutenticationTypes">
+      <EntityTypeMapping TypeName="securityBd.UserAutenticationType">
+        <MappingFragment StoreEntitySet="UserAutenticationType">
+          <ScalarProperty Name="UserAutenticationTypeID" ColumnName="UserAutenticationTypeID" />
+          <ScalarProperty Name="userAutenticationTypeDescription" ColumnName="userAutenticationTypeDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserLoginHistories">
+      <EntityTypeMapping TypeName="securityBd.UserLoginHistory">
+        <MappingFragment StoreEntitySet="UserLoginHistory">
+          <ScalarProperty Name="userLoginID" ColumnName="userLoginID" />
+          <ScalarProperty Name="userLoginDate" ColumnName="userLoginDate" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRoles">
+      <EntityTypeMapping TypeName="securityBd.UserRole">
+        <MappingFragment StoreEntitySet="UserRole">
+          <ScalarProperty Name="userRoleID" ColumnName="userRoleID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ussers">
+      <EntityTypeMapping TypeName="securityBd.Usser">
+        <MappingFragment StoreEntitySet="Usser">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="isOnline" ColumnName="isOnline" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

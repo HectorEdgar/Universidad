@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;mx.edu.ulsaoaxaca.interfaz.PanelMenuAltaEmpleado&apos; to &apos;PanelMenuAltaEmpleados&apos;&#x0D;&#x0A;- Original project: &apos;ProyectoJavaV2&apos;&#x0D;&#x0A;- Original element: &apos;mx.edu.ulsaoaxaca.interfaz.PanelMenuAltaEmpleado&apos;&#x0D;&#x0A;- Renamed element: &apos;mx.edu.ulsaoaxaca.interfaz.PanelMenuAltaEmpleados&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PanelMenuAltaEmpleado&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;mx.edu.ulsaoaxaca.interfaz{PanelMenuAltaEmpleado.java[PanelMenuAltaEmpleado" matchStrategy="1" name="PanelMenuAltaEmpleados" qualified="false" references="true" similarDeclarations="false" stamp="1449119054075" textual="false" version="1.0"/>
+</session>

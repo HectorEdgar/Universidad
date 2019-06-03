@@ -1,0 +1,8 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ModoDesAtendidoPrueba1\ModoDesAtendidoPrueba1\bin\Debug\ModoDesAtendidoPrueba1.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ModoDesAtendidoPrueba1\ModoDesAtendidoPrueba1\bin\Debug\ModoDesAtendidoPrueba1.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ModoDesAtendidoPrueba1\ModoDesAtendidoPrueba1\bin\Debug\ModoDesAtendidoPrueba1.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ModoDesAtendidoPrueba1\ModoDesAtendidoPrueba1\obj\Debug\ModoDesAtendidoPrueba1.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ModoDesAtendidoPrueba1\ModoDesAtendidoPrueba1\obj\Debug\ModoDesAtendidoPrueba1.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ModoDesAtendidoPrueba1\ModoDesAtendidoPrueba1\obj\Debug\ModoDesAtendidoPrueba1.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ModoDesAtendidoPrueba1\ModoDesAtendidoPrueba1\obj\Debug\ModoDesAtendidoPrueba1.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ModoDesAtendidoPrueba1\ModoDesAtendidoPrueba1\obj\Debug\ModoDesAtendidoPrueba1.pdb

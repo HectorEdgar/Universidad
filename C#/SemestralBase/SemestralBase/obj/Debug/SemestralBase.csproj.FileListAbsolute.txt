@@ -1,0 +1,9 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\SemestralBase\SemestralBase\bin\Debug\SemestralBase.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\SemestralBase\SemestralBase\bin\Debug\SemestralBase.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\SemestralBase\SemestralBase\bin\Debug\SemestralBase.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\SemestralBase\SemestralBase\obj\Debug\SemestralBase.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\SemestralBase\SemestralBase\obj\Debug\SemestralBase.Form1.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\SemestralBase\SemestralBase\obj\Debug\SemestralBase.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\SemestralBase\SemestralBase\obj\Debug\SemestralBase.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\SemestralBase\SemestralBase\obj\Debug\SemestralBase.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\SemestralBase\SemestralBase\obj\Debug\SemestralBase.pdb

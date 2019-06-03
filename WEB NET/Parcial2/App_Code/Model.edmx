@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="bibliotecaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Areas">
+          <Key>
+            <PropertyRef Name="areCodigo" />
+          </Key>
+          <Property Name="areCodigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="areNombre" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="areTiempo" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DetallePrestamos">
+          <Key>
+            <PropertyRef Name="dtpPrestamo" />
+          </Key>
+          <Property Name="dtpPrestamo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="dtpCantidad" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="dtpFechaFin" Type="datetime" Nullable="false" />
+          <Property Name="dtpFechaDev" Type="datetime" Nullable="false" />
+          <Property Name="preCodigo" Type="int" Nullable="false" />
+          <Property Name="libCodigo" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Libros">
+          <Key>
+            <PropertyRef Name="libCodigo" />
+          </Key>
+          <Property Name="libCodigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="libNombre" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="libNumPag" Type="int" Nullable="false" />
+          <Property Name="libAutor" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="libEditorial" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="areCodigo" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Prestamos">
+          <Key>
+            <PropertyRef Name="preCodigo" />
+          </Key>
+          <Property Name="preCodigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="preFecha" Type="datetime" Nullable="false" />
+          <Property Name="usuDocumento" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Sanciones">
+          <Key>
+            <PropertyRef Name="sanCodigo" />
+          </Key>
+          <Property Name="sanCodigo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="sanDiasSancion" Type="int" Nullable="false" />
+          <Property Name="sanFechaInicio" Type="datetime" Nullable="false" />
+          <Property Name="sanFechaFin" Type="datetime" Nullable="false" />
+          <Property Name="preCodigo" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Usuarios">
+          <Key>
+            <PropertyRef Name="usuDocumento" />
+          </Key>
+          <Property Name="usuDocumento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="usuNombre" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="usuDireccion" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="usuTelefono" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="usuCorreo" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="usuEstado" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__DetallePr__libCo__1209AD79">
+          <End Role="Libros" Type="Self.Libros" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DetallePrestamos" Type="Self.DetallePrestamos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Libros">
+              <PropertyRef Name="libCodigo" />
+            </Principal>
+            <Dependent Role="DetallePrestamos">
+              <PropertyRef Name="libCodigo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetallePr__preCo__0F2D40CE">
+          <End Role="Prestamos" Type="Self.Prestamos" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DetallePrestamos" Type="Self.DetallePrestamos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Prestamos">
+              <PropertyRef Name="preCodigo" />
+            </Principal>
+            <Dependent Role="DetallePrestamos">
+              <PropertyRef Name="preCodigo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Libros__areCodig__7849DB76">
+          <End Role="Areas" Type="Self.Areas" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Libros" Type="Self.Libros" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Areas">
+              <PropertyRef Name="areCodigo" />
+            </Principal>
+            <Dependent Role="Libros">
+              <PropertyRef Name="areCodigo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Prestamos__usuDo__03BB8E22">
+          <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Prestamos" Type="Self.Prestamos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuarios">
+              <PropertyRef Name="usuDocumento" />
+            </Principal>
+            <Dependent Role="Prestamos">
+              <PropertyRef Name="usuDocumento" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Sanciones__preCo__10216507">
+          <End Role="Prestamos" Type="Self.Prestamos" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Sanciones" Type="Self.Sanciones" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Prestamos">
+              <PropertyRef Name="preCodigo" />
+            </Principal>
+            <Dependent Role="Sanciones">
+              <PropertyRef Name="preCodigo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="bibliotecaModelStoreContainer">
+          <EntitySet Name="Areas" EntityType="Self.Areas" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DetallePrestamos" EntityType="Self.DetallePrestamos" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Libros" EntityType="Self.Libros" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Prestamos" EntityType="Self.Prestamos" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sanciones" EntityType="Self.Sanciones" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__DetallePr__libCo__1209AD79" Association="Self.FK__DetallePr__libCo__1209AD79">
+            <End Role="Libros" EntitySet="Libros" />
+            <End Role="DetallePrestamos" EntitySet="DetallePrestamos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetallePr__preCo__0F2D40CE" Association="Self.FK__DetallePr__preCo__0F2D40CE">
+            <End Role="Prestamos" EntitySet="Prestamos" />
+            <End Role="DetallePrestamos" EntitySet="DetallePrestamos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Libros__areCodig__7849DB76" Association="Self.FK__Libros__areCodig__7849DB76">
+            <End Role="Areas" EntitySet="Areas" />
+            <End Role="Libros" EntitySet="Libros" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Prestamos__usuDo__03BB8E22" Association="Self.FK__Prestamos__usuDo__03BB8E22">
+            <End Role="Usuarios" EntitySet="Usuarios" />
+            <End Role="Prestamos" EntitySet="Prestamos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Sanciones__preCo__10216507" Association="Self.FK__Sanciones__preCo__10216507">
+            <End Role="Prestamos" EntitySet="Prestamos" />
+            <End Role="Sanciones" EntitySet="Sanciones" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="bibliotecaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Area">
+          <Key>
+            <PropertyRef Name="areCodigo" />
+          </Key>
+          <Property Name="areCodigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="areNombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="areTiempo" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Libros" Relationship="Self.FK__Libros__areCodig__7849DB76" FromRole="Areas" ToRole="Libros" />
+        </EntityType>
+        <EntityType Name="DetallePrestamo">
+          <Key>
+            <PropertyRef Name="dtpPrestamo" />
+          </Key>
+          <Property Name="dtpPrestamo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="dtpCantidad" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="dtpFechaFin" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="dtpFechaDev" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="preCodigo" Type="Int32" Nullable="false" />
+          <Property Name="libCodigo" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Libro" Relationship="Self.FK__DetallePr__libCo__1209AD79" FromRole="DetallePrestamos" ToRole="Libros" />
+          <NavigationProperty Name="Prestamo" Relationship="Self.FK__DetallePr__preCo__0F2D40CE" FromRole="DetallePrestamos" ToRole="Prestamos" />
+        </EntityType>
+        <EntityType Name="Libro">
+          <Key>
+            <PropertyRef Name="libCodigo" />
+          </Key>
+          <Property Name="libCodigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="libNombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="libNumPag" Type="Int32" Nullable="false" />
+          <Property Name="libAutor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="libEditorial" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="areCodigo" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Area" Relationship="Self.FK__Libros__areCodig__7849DB76" FromRole="Libros" ToRole="Areas" />
+          <NavigationProperty Name="DetallePrestamos" Relationship="Self.FK__DetallePr__libCo__1209AD79" FromRole="Libros" ToRole="DetallePrestamos" />
+        </EntityType>
+        <EntityType Name="Prestamo">
+          <Key>
+            <PropertyRef Name="preCodigo" />
+          </Key>
+          <Property Name="preCodigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="preFecha" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="usuDocumento" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="DetallePrestamos" Relationship="Self.FK__DetallePr__preCo__0F2D40CE" FromRole="Prestamos" ToRole="DetallePrestamos" />
+          <NavigationProperty Name="Usuario" Relationship="Self.FK__Prestamos__usuDo__03BB8E22" FromRole="Prestamos" ToRole="Usuarios" />
+          <NavigationProperty Name="Sanciones" Relationship="Self.FK__Sanciones__preCo__10216507" FromRole="Prestamos" ToRole="Sanciones" />
+        </EntityType>
+        <EntityType Name="Sancione">
+          <Key>
+            <PropertyRef Name="sanCodigo" />
+          </Key>
+          <Property Name="sanCodigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="sanDiasSancion" Type="Int32" Nullable="false" />
+          <Property Name="sanFechaInicio" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="sanFechaFin" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="preCodigo" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Prestamo" Relationship="Self.FK__Sanciones__preCo__10216507" FromRole="Sanciones" ToRole="Prestamos" />
+        </EntityType>
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="usuDocumento" />
+          </Key>
+          <Property Name="usuDocumento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="usuNombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="usuDireccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="usuTelefono" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="usuCorreo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="usuEstado" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Prestamos" Relationship="Self.FK__Prestamos__usuDo__03BB8E22" FromRole="Usuarios" ToRole="Prestamos" />
+        </EntityType>
+        <Association Name="FK__Libros__areCodig__7849DB76">
+          <End Role="Areas" Type="Self.Area" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Libros" Type="Self.Libro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Areas">
+              <PropertyRef Name="areCodigo" />
+            </Principal>
+            <Dependent Role="Libros">
+              <PropertyRef Name="areCodigo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetallePr__libCo__1209AD79">
+          <End Role="Libros" Type="Self.Libro" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DetallePrestamos" Type="Self.DetallePrestamo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Libros">
+              <PropertyRef Name="libCodigo" />
+            </Principal>
+            <Dependent Role="DetallePrestamos">
+              <PropertyRef Name="libCodigo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__DetallePr__preCo__0F2D40CE">
+          <End Role="Prestamos" Type="Self.Prestamo" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="DetallePrestamos" Type="Self.DetallePrestamo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Prestamos">
+              <PropertyRef Name="preCodigo" />
+            </Principal>
+            <Dependent Role="DetallePrestamos">
+              <PropertyRef Name="preCodigo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Prestamos__usuDo__03BB8E22">
+          <End Role="Usuarios" Type="Self.Usuario" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Prestamos" Type="Self.Prestamo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Usuarios">
+              <PropertyRef Name="usuDocumento" />
+            </Principal>
+            <Dependent Role="Prestamos">
+              <PropertyRef Name="usuDocumento" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Sanciones__preCo__10216507">
+          <End Role="Prestamos" Type="Self.Prestamo" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Sanciones" Type="Self.Sancione" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Prestamos">
+              <PropertyRef Name="preCodigo" />
+            </Principal>
+            <Dependent Role="Sanciones">
+              <PropertyRef Name="preCodigo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="bibliotecaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Areas" EntityType="Self.Area" />
+          <EntitySet Name="DetallePrestamos" EntityType="Self.DetallePrestamo" />
+          <EntitySet Name="Libros" EntityType="Self.Libro" />
+          <EntitySet Name="Prestamos" EntityType="Self.Prestamo" />
+          <EntitySet Name="Sanciones" EntityType="Self.Sancione" />
+          <EntitySet Name="Usuarios" EntityType="Self.Usuario" />
+          <AssociationSet Name="FK__Libros__areCodig__7849DB76" Association="Self.FK__Libros__areCodig__7849DB76">
+            <End Role="Areas" EntitySet="Areas" />
+            <End Role="Libros" EntitySet="Libros" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetallePr__libCo__1209AD79" Association="Self.FK__DetallePr__libCo__1209AD79">
+            <End Role="Libros" EntitySet="Libros" />
+            <End Role="DetallePrestamos" EntitySet="DetallePrestamos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__DetallePr__preCo__0F2D40CE" Association="Self.FK__DetallePr__preCo__0F2D40CE">
+            <End Role="Prestamos" EntitySet="Prestamos" />
+            <End Role="DetallePrestamos" EntitySet="DetallePrestamos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Prestamos__usuDo__03BB8E22" Association="Self.FK__Prestamos__usuDo__03BB8E22">
+            <End Role="Usuarios" EntitySet="Usuarios" />
+            <End Role="Prestamos" EntitySet="Prestamos" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Sanciones__preCo__10216507" Association="Self.FK__Sanciones__preCo__10216507">
+            <End Role="Prestamos" EntitySet="Prestamos" />
+            <End Role="Sanciones" EntitySet="Sanciones" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="bibliotecaModelStoreContainer" CdmEntityContainer="bibliotecaEntities">
+          <EntitySetMapping Name="Areas">
+            <EntityTypeMapping TypeName="bibliotecaModel.Area">
+              <MappingFragment StoreEntitySet="Areas">
+                <ScalarProperty Name="areCodigo" ColumnName="areCodigo" />
+                <ScalarProperty Name="areNombre" ColumnName="areNombre" />
+                <ScalarProperty Name="areTiempo" ColumnName="areTiempo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DetallePrestamos">
+            <EntityTypeMapping TypeName="bibliotecaModel.DetallePrestamo">
+              <MappingFragment StoreEntitySet="DetallePrestamos">
+                <ScalarProperty Name="dtpPrestamo" ColumnName="dtpPrestamo" />
+                <ScalarProperty Name="dtpCantidad" ColumnName="dtpCantidad" />
+                <ScalarProperty Name="dtpFechaFin" ColumnName="dtpFechaFin" />
+                <ScalarProperty Name="dtpFechaDev" ColumnName="dtpFechaDev" />
+                <ScalarProperty Name="preCodigo" ColumnName="preCodigo" />
+                <ScalarProperty Name="libCodigo" ColumnName="libCodigo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Libros">
+            <EntityTypeMapping TypeName="bibliotecaModel.Libro">
+              <MappingFragment StoreEntitySet="Libros">
+                <ScalarProperty Name="libCodigo" ColumnName="libCodigo" />
+                <ScalarProperty Name="libNombre" ColumnName="libNombre" />
+                <ScalarProperty Name="libNumPag" ColumnName="libNumPag" />
+                <ScalarProperty Name="libAutor" ColumnName="libAutor" />
+                <ScalarProperty Name="libEditorial" ColumnName="libEditorial" />
+                <ScalarProperty Name="areCodigo" ColumnName="areCodigo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Prestamos">
+            <EntityTypeMapping TypeName="bibliotecaModel.Prestamo">
+              <MappingFragment StoreEntitySet="Prestamos">
+                <ScalarProperty Name="preCodigo" ColumnName="preCodigo" />
+                <ScalarProperty Name="preFecha" ColumnName="preFecha" />
+                <ScalarProperty Name="usuDocumento" ColumnName="usuDocumento" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sanciones">
+            <EntityTypeMapping TypeName="bibliotecaModel.Sancione">
+              <MappingFragment StoreEntitySet="Sanciones">
+                <ScalarProperty Name="sanCodigo" ColumnName="sanCodigo" />
+                <ScalarProperty Name="sanDiasSancion" ColumnName="sanDiasSancion" />
+                <ScalarProperty Name="sanFechaInicio" ColumnName="sanFechaInicio" />
+                <ScalarProperty Name="sanFechaFin" ColumnName="sanFechaFin" />
+                <ScalarProperty Name="preCodigo" ColumnName="preCodigo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Usuarios">
+            <EntityTypeMapping TypeName="bibliotecaModel.Usuario">
+              <MappingFragment StoreEntitySet="Usuarios">
+                <ScalarProperty Name="usuDocumento" ColumnName="usuDocumento" />
+                <ScalarProperty Name="usuNombre" ColumnName="usuNombre" />
+                <ScalarProperty Name="usuDireccion" ColumnName="usuDireccion" />
+                <ScalarProperty Name="usuTelefono" ColumnName="usuTelefono" />
+                <ScalarProperty Name="usuCorreo" ColumnName="usuCorreo" />
+                <ScalarProperty Name="usuEstado" ColumnName="usuEstado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,2 @@
+2015-12-02 19:08:28,583 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2015-12-03 00:01:05,576 [main] WARN  o.e.r.i.c.r.ChainCompletionProposalComputer - Can't handle %s as source for finding entrypoints.

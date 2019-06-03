@@ -1,0 +1,5 @@
+package mx.edu.ulsaoaxaca.Dao;
+
+public class DirectivoDaoImpl {
+
+}

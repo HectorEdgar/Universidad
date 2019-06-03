@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="veterinariaBd">
+  <DataContextMoniker Name="/veterinariaBdDataContext" />
+  <nestedChildShapes>
+    <classShape Id="97118587-9381-45b4-89ea-666c17818a4d" absoluteBounds="1, 0.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/veterinariaBdDataContext/mascota" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f7485de7-107b-4c9e-b5b2-d254fe1fd1c1" absoluteBounds="1.0150000000000001, 1.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

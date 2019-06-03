@@ -1,0 +1,10 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Test1HectorDDL1\Test1HectorDDL1\bin\Debug\Test1HectorDDL1.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Test1HectorDDL1\Test1HectorDDL1\obj\Debug\Test1HectorDDL1.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Test1HectorDDL1\Test1HectorDDL1\bin\Debug\Test1HectorDDL1.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Test1HectorDDL1\Test1HectorDDL1\bin\Debug\Test1HectorDDL1.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Test1HectorDDL1\Test1HectorDDL1\bin\Debug\EntityFramework.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Test1HectorDDL1\Test1HectorDDL1\bin\Debug\HectorDLL.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Test1HectorDDL1\Test1HectorDDL1\bin\Debug\EntityFramework.xml
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Test1HectorDDL1\Test1HectorDDL1\bin\Debug\HectorDLL.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Test1HectorDDL1\Test1HectorDDL1\obj\Debug\Test1HectorDDL1.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Test1HectorDDL1\Test1HectorDDL1\obj\Debug\Test1HectorDDL1.pdb

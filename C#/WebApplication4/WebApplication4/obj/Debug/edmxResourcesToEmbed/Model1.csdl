@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="securityBd" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Control">
+    <Key>
+      <PropertyRef Name="controlID" />
+    </Key>
+    <Property Name="controlID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="controlName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="parentControlID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="controlTypeID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="ControlType" Relationship="Self.FK__Control__control__1DE57479" FromRole="Control" ToRole="ControlType" />
+  </EntityType>
+  <EntityType Name="ControlType">
+    <Key>
+      <PropertyRef Name="controlTypeID" />
+    </Key>
+    <Property Name="controlTypeID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="controlTypeName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Controls" Relationship="Self.FK__Control__control__1DE57479" FromRole="ControlType" ToRole="Control" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RoleDescription" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="UserRoles" Relationship="Self.FK__UserRole__RoleID__1ED998B2" FromRole="Role" ToRole="UserRole" />
+  </EntityType>
+  <EntityType Name="userAutentication">
+    <Key>
+      <PropertyRef Name="userAutenticationID" />
+    </Key>
+    <Property Name="userAutenticationID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserAutenticationTypeID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Passwordd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userEmail" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="UserAutenticationType" Relationship="Self.FK__userAuten__UserA__22AA2996" FromRole="userAutentication" ToRole="UserAutenticationType" />
+    <NavigationProperty Name="Usser" Relationship="Self.FK__userAuten__userI__21B6055D" FromRole="userAutentication" ToRole="Usser" />
+  </EntityType>
+  <EntityType Name="UserAutenticationType">
+    <Key>
+      <PropertyRef Name="UserAutenticationTypeID" />
+    </Key>
+    <Property Name="UserAutenticationTypeID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userAutenticationTypeDescription" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="userAutentications" Relationship="Self.FK__userAuten__UserA__22AA2996" FromRole="UserAutenticationType" ToRole="userAutentication" />
+  </EntityType>
+  <EntityType Name="UserLoginHistory">
+    <Key>
+      <PropertyRef Name="userLoginID" />
+    </Key>
+    <Property Name="userLoginID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userLoginDate" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Usser" Relationship="Self.FK__UserLogin__userI__20C1E124" FromRole="UserLoginHistory" ToRole="Usser" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="userRoleID" />
+    </Key>
+    <Property Name="userRoleID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RoleID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="userID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Role" Relationship="Self.FK__UserRole__RoleID__1ED998B2" FromRole="UserRole" ToRole="Role" />
+    <NavigationProperty Name="Usser" Relationship="Self.FK__UserRole__userID__1FCDBCEB" FromRole="UserRole" ToRole="Usser" />
+  </EntityType>
+  <EntityType Name="Usser">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IsAdmin" Type="Boolean" Nullable="false" />
+    <Property Name="isActive" Type="Boolean" Nullable="false" />
+    <Property Name="isOnline" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="userAutentications" Relationship="Self.FK__userAuten__userI__21B6055D" FromRole="Usser" ToRole="userAutentication" />
+    <NavigationProperty Name="UserLoginHistories" Relationship="Self.FK__UserLogin__userI__20C1E124" FromRole="Usser" ToRole="UserLoginHistory" />
+    <NavigationProperty Name="UserRoles" Relationship="Self.FK__UserRole__userID__1FCDBCEB" FromRole="Usser" ToRole="UserRole" />
+  </EntityType>
+  <Association Name="FK__Control__control__1DE57479">
+    <End Role="ControlType" Type="Self.ControlType" Multiplicity="1" />
+    <End Role="Control" Type="Self.Control" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ControlType">
+        <PropertyRef Name="controlTypeID" />
+      </Principal>
+      <Dependent Role="Control">
+        <PropertyRef Name="controlTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserRole__RoleID__1ED998B2">
+    <End Role="Role" Type="Self.Role" Multiplicity="1" />
+    <End Role="UserRole" Type="Self.UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="UserRole">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__userAuten__UserA__22AA2996">
+    <End Role="UserAutenticationType" Type="Self.UserAutenticationType" Multiplicity="1" />
+    <End Role="userAutentication" Type="Self.userAutentication" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserAutenticationType">
+        <PropertyRef Name="UserAutenticationTypeID" />
+      </Principal>
+      <Dependent Role="userAutentication">
+        <PropertyRef Name="UserAutenticationTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__userAuten__userI__21B6055D">
+    <End Role="Usser" Type="Self.Usser" Multiplicity="1" />
+    <End Role="userAutentication" Type="Self.userAutentication" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usser">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="userAutentication">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserLogin__userI__20C1E124">
+    <End Role="Usser" Type="Self.Usser" Multiplicity="1" />
+    <End Role="UserLoginHistory" Type="Self.UserLoginHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usser">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="UserLoginHistory">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserRole__userID__1FCDBCEB">
+    <End Role="Usser" Type="Self.Usser" Multiplicity="1" />
+    <End Role="UserRole" Type="Self.UserRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usser">
+        <PropertyRef Name="userID" />
+      </Principal>
+      <Dependent Role="UserRole">
+        <PropertyRef Name="userID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="securityEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Controls" EntityType="Self.Control" />
+    <EntitySet Name="ControlTypes" EntityType="Self.ControlType" />
+    <EntitySet Name="Roles" EntityType="Self.Role" />
+    <EntitySet Name="userAutentications" EntityType="Self.userAutentication" />
+    <EntitySet Name="UserAutenticationTypes" EntityType="Self.UserAutenticationType" />
+    <EntitySet Name="UserLoginHistories" EntityType="Self.UserLoginHistory" />
+    <EntitySet Name="UserRoles" EntityType="Self.UserRole" />
+    <EntitySet Name="Ussers" EntityType="Self.Usser" />
+    <AssociationSet Name="FK__Control__control__1DE57479" Association="Self.FK__Control__control__1DE57479">
+      <End Role="ControlType" EntitySet="ControlTypes" />
+      <End Role="Control" EntitySet="Controls" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserRole__RoleID__1ED998B2" Association="Self.FK__UserRole__RoleID__1ED998B2">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="UserRole" EntitySet="UserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__userAuten__UserA__22AA2996" Association="Self.FK__userAuten__UserA__22AA2996">
+      <End Role="UserAutenticationType" EntitySet="UserAutenticationTypes" />
+      <End Role="userAutentication" EntitySet="userAutentications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__userAuten__userI__21B6055D" Association="Self.FK__userAuten__userI__21B6055D">
+      <End Role="Usser" EntitySet="Ussers" />
+      <End Role="userAutentication" EntitySet="userAutentications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserLogin__userI__20C1E124" Association="Self.FK__UserLogin__userI__20C1E124">
+      <End Role="Usser" EntitySet="Ussers" />
+      <End Role="UserLoginHistory" EntitySet="UserLoginHistories" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserRole__userID__1FCDBCEB" Association="Self.FK__UserRole__userID__1FCDBCEB">
+      <End Role="Usser" EntitySet="Ussers" />
+      <End Role="UserRole" EntitySet="UserRoles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

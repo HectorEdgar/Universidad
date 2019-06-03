@@ -1,0 +1,9 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practia8\practia8\bin\Debug\practia8.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practia8\practia8\obj\Debug\practia8.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practia8\practia8\obj\Debug\practia8.Form1.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practia8\practia8\obj\Debug\practia8.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practia8\practia8\obj\Debug\practia8.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practia8\practia8\bin\Debug\practia8.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practia8\practia8\bin\Debug\practia8.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practia8\practia8\obj\Debug\practia8.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practia8\practia8\obj\Debug\practia8.pdb

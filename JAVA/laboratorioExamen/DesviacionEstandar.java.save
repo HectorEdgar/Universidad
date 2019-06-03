@@ -1,0 +1,12 @@
+public class DesviacionEstandar{
+	private Double desviacionEstandar;
+	private Double sumatoria;
+
+	public DesviacionEstandar(){
+
+	}
+	
+	
+	}
+
+}

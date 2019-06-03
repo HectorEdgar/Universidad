@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="veterinaria" Class="veterinariaBdDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=veterinaria;Integrated Security=True" SettingsObjectName="practia8.Properties.Settings" SettingsPropertyName="veterinariaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.mascota" Member="mascota">
+    <Type Name="mascota">
+      <Column Name="name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="owner" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="species" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="sex" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="birth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="death" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

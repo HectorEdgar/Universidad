@@ -1,0 +1,10 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ProyectoBase2\ProyectoBase2\bin\Debug\ProyectoBase2.exe.config
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ProyectoBase2\ProyectoBase2\bin\Debug\ProyectoBase2.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ProyectoBase2\ProyectoBase2\bin\Debug\ProyectoBase2.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ProyectoBase2\ProyectoBase2\obj\Debug\ProyectoBase2.csprojResolveAssemblyReference.cache
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ProyectoBase2\ProyectoBase2\obj\Debug\ProyectoBase2.Form1.resources
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ProyectoBase2\ProyectoBase2\obj\Debug\ProyectoBase2.Properties.Resources.resources
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ProyectoBase2\ProyectoBase2\obj\Debug\ProyectoBase2.csproj.GenerateResource.Cache
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ProyectoBase2\ProyectoBase2\obj\Debug\ProyectoBase2.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ProyectoBase2\ProyectoBase2\obj\Debug\ProyectoBase2.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ProyectoBase2\ProyectoBase2\bin\Debug\MySql.Data.dll

@@ -1,0 +1,9 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ModoDesAtendidoTarea\ModoDesAtendidoTarea\bin\Debug\ModoDesAtendidoTarea.exe.config
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ModoDesAtendidoTarea\ModoDesAtendidoTarea\bin\Debug\ModoDesAtendidoTarea.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ModoDesAtendidoTarea\ModoDesAtendidoTarea\bin\Debug\ModoDesAtendidoTarea.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ModoDesAtendidoTarea\ModoDesAtendidoTarea\obj\Debug\ModoDesAtendidoTarea.csprojResolveAssemblyReference.cache
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ModoDesAtendidoTarea\ModoDesAtendidoTarea\obj\Debug\ModoDesAtendidoTarea.Form1.resources
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ModoDesAtendidoTarea\ModoDesAtendidoTarea\obj\Debug\ModoDesAtendidoTarea.Properties.Resources.resources
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ModoDesAtendidoTarea\ModoDesAtendidoTarea\obj\Debug\ModoDesAtendidoTarea.csproj.GenerateResource.Cache
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ModoDesAtendidoTarea\ModoDesAtendidoTarea\obj\Debug\ModoDesAtendidoTarea.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ModoDesAtendidoTarea\ModoDesAtendidoTarea\obj\Debug\ModoDesAtendidoTarea.pdb

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9d332fac486a41f1992744b7e75710d9" Name="Diagram1">
+        <EntityTypeShape EntityType="Sistema_GimnasioModel.Alumno" PointX="5.25" PointY="1" Width="1.5" />
+        <EntityTypeShape EntityType="Sistema_GimnasioModel.Alumnos_GrupoGimnasio" PointX="7.5" PointY="1.125" Width="2" />
+        <EntityTypeShape EntityType="Sistema_GimnasioModel.Asistencia" PointX="10.25" PointY="1" Width="1.5" />
+        <EntityTypeShape EntityType="Sistema_GimnasioModel.Grupo" PointX="3" PointY="1" Width="1.5" />
+        <EntityTypeShape EntityType="Sistema_GimnasioModel.GrupoGimnasio" PointX="5" PointY="4.25" Width="1.5" />
+        <EntityTypeShape EntityType="Sistema_GimnasioModel.HorarioGimnasio" PointX="2" PointY="4.75" Width="1.5" />
+        <EntityTypeShape EntityType="Sistema_GimnasioModel.HorarioGimnasio_Horas" PointX="7.75" PointY="4.75" Width="1.5" />
+        <EntityTypeShape EntityType="Sistema_GimnasioModel.Hora" PointX="7.75" PointY="7.75" Width="1.5" />
+        <EntityTypeShape EntityType="Sistema_GimnasioModel.Licenciatura" PointX="0.75" PointY="1.375" Width="1.5" />
+        <EntityTypeShape EntityType="Sistema_GimnasioModel.Usuario" PointX="0.75" PointY="7.75" Width="1.5" />
+        <AssociationConnector Association="Sistema_GimnasioModel.FK__Alumno__idGrupo__71D1E811" />
+        <AssociationConnector Association="Sistema_GimnasioModel.FK__Alumnos_G__Matri__6FE99F9F" />
+        <AssociationConnector Association="Sistema_GimnasioModel.FK__Alumnos_G__idGim__72C60C4A" />
+        <AssociationConnector Association="Sistema_GimnasioModel.FK__Asistencia__160F4887" />
+        <AssociationConnector Association="Sistema_GimnasioModel.FK__Grupo__IdLicenci__70DDC3D8" />
+        <AssociationConnector Association="Sistema_GimnasioModel.FK__GrupoGimn__IdHor__74AE54BC" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

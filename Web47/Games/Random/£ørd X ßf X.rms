@@ -1,0 +1,387 @@
+/* ************ £ørd™ «ßlack Forest» ************ */
+/* ********** CLAN £ørd™ http://clanlord.webs.com ************ */
+/* 31 MAR 14 */ 
+
+#include_drs random_map.def 54000
+
+/* ************ £ørd™ «ßlack Forest» ************ */
+<PLAYER_SETUP>
+ random_placement   
+
+start_random
+  percent_chance 50
+  #define GRASS_MAP
+  percent_chance 50
+  #define FOREST_MAP
+end_random
+
+<LAND_GENERATION>
+base_terrain FOREST
+create_land
+{
+  terrain_type SNOW
+  land_percent 0
+  border_fuzziness 28
+  left_border 42
+  right_border 42
+  top_border 42
+  bottom_border 42
+}
+create_player_lands 
+{            
+  terrain_type                    GRASS
+  land_percent                     38
+  base_size                        13
+  other_zone_avoidance_distance    21
+}
+
+<OBJECTS_GENERATION>
+create_object TOWN_CENTER
+{
+	set_place_for_every_player
+	group_placement_radius			30
+	min_distance_to_players			0
+	max_distance_to_players			0
+}
+create_object VILLAGER
+{
+  set_place_for_every_player
+  min_distance_to_players       6
+  max_distance_to_players       6
+}
+create_object SCOUT
+{
+   set_place_for_every_player
+   number_of_objects             1
+   min_distance_to_players       7
+   max_distance_to_players       9
+ }
+create_object SHEEP
+{
+   number_of_objects 4
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    10
+   max_distance_to_players    10
+} 
+create_object SHEEP
+{
+   number_of_objects 2
+   number_of_groups 2
+   set_loose_grouping
+   set_gaia_object_only
+   set_place_for_every_player
+   min_distance_to_players    15
+   max_distance_to_players    18
+   temp_min_distance_group_placement 15
+}
+create_object TREE_I
+{
+  number_of_objects  3
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       4
+  max_distance_to_players       6
+  min_distance_group_placement  3
+}
+create_object FLAG_A
+{
+  number_of_objects  1
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players       11
+  max_distance_to_players       13
+}
+create_object RELIC
+{
+   number_of_objects 2
+   set_gaia_object_only
+   set_place_for_every_player
+   temp_min_distance_group_placement 20
+   terrain_to_place_on            GRASS
+   min_distance_to_players    20
+   max_distance_to_players    25
+}
+create_object DEER
+{
+	number_of_objects	4
+	group_placement_radius	3
+	set_loose_grouping
+	set_gaia_object_only
+	set_place_for_every_player
+	min_distance_to_players		19
+	max_distance_to_players		19
+	min_distance_group_placement	9
+}
+create_object FORAGE
+{
+  number_of_objects          6
+  group_placement_radius     3
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    10
+  max_distance_to_players    10
+  min_distance_group_placement  6
+}
+create_object JAVELINA
+{
+  number_of_objects          1
+  set_loose_grouping  
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    22
+}
+create_object BOAR
+{
+  number_of_objects          1
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    16
+  max_distance_to_players    21
+}
+   create_object BOAR
+{
+start_random
+percent_chance 30
+  number_of_objects          3
+  set_gaia_object_only
+percent_chance 70
+  number_of_objects          0
+end_random
+   set_place_for_every_player
+   set_loose_grouping
+   min_distance_group_placement  3
+   min_distance_to_players    35
+   max_distance_to_players    36
+}
+create_object GOLD
+{ 
+  set_place_for_every_player
+  number_of_objects          7
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    11
+  max_distance_to_players    11
+}
+
+create_object GOLD
+{ 
+  set_place_for_every_player
+  number_of_objects          4
+  number_of_groups           2
+  group_placement_radius     10
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    17
+  max_distance_to_players    20
+  min_distance_group_placement  13
+}
+create_object STONE
+{
+  set_place_for_every_player
+  number_of_objects          5
+  number_of_groups           2
+  group_placement_radius     10
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    17
+  max_distance_to_players    20
+  min_distance_group_placement  12
+}
+create_object GOLD
+{
+  set_place_for_every_player
+  number_of_objects          4
+  number_of_groups           2
+  group_placement_radius     10
+  set_tight_grouping
+  set_gaia_object_only
+  set_place_for_every_player
+  min_distance_to_players    19
+  max_distance_to_players    32
+  min_distance_group_placement  13
+}
+ create_object FLOWER_BED
+{
+   number_of_objects           1
+   terrain_to_place_on            GRASS
+   set_gaia_object_only
+   set_place_for_every_player 
+   set_loose_grouping
+   min_distance_to_players    22
+   max_distance_to_players    27
+}
+create_object FLOWERS_2
+{
+   number_of_objects 1
+   number_of_groups 1
+   group_variance              1
+   terrain_to_place_on            GRASS
+   set_gaia_object_only
+   set_place_for_every_player 
+   set_loose_grouping
+   temp_min_distance_group_placement 6
+   min_distance_to_players    26
+}
+create_object FLOWERS_3
+{
+   number_of_objects 1
+   number_of_groups 1
+   group_variance              1
+   terrain_to_place_on            GRASS
+   set_gaia_object_only
+   set_place_for_every_player 
+   set_loose_grouping
+   temp_min_distance_group_placement 6
+   min_distance_to_players    26
+}
+create_object GRAVE
+{
+   set_place_for_every_player
+   number_of_objects           2
+   terrain_to_place_on            GRASS
+   set_gaia_object_only
+   set_tight_grouping
+   set_place_for_every_player
+   min_distance_to_players    35
+  
+}
+create_object GRAVE
+{
+   set_place_for_every_player
+   number_of_objects           1
+   terrain_to_place_on            GRASS
+   set_gaia_object_only
+   set_tight_grouping
+   set_place_for_every_player
+   min_distance_to_players    30
+}
+
+<OBJECTS_GENERATION>
+create_object STATUE
+{
+  number_of_objects                1
+  set_gaia_object_only
+  terrain_to_place_on            SNOW
+}
+create_object WILD_HORSE
+{
+  number_of_objects                 2
+  set_gaia_object_only
+  terrain_to_place_on            SNOW
+}
+create_object RUGS
+{
+  number_of_objects                 21
+  set_gaia_object_only
+  terrain_to_place_on            SNOW
+}
+create_object HAWK
+{
+	number_of_objects				10
+	set_scaling_to_map_size
+}
+create_object MACAW
+{
+  number_of_objects                   10
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+}
+create_object SNAPPERS
+{
+  number_of_objects                   10
+  set_scaling_to_map_size
+  set_gaia_object_only
+  max_distance_to_other_zones         4
+}
+create_object SHORE_FISH
+{
+  number_of_objects 3
+  number_of_groups 2
+  set_gaia_object_only
+  min_distance_group_placement  50
+  set_scaling_to_map_size
+}
+<TERRAIN_GENERATION>
+
+create_terrain GRASS3
+{
+	base_terrain					GRASS
+	spacing_to_other_terrain_types	5
+	land_percent					4
+	number_of_clumps				4
+	clumping_factor					30
+	set_avoid_player_start_areas
+	set_scale_by_groups
+}
+create_terrain GRASS2
+{
+	base_terrain					GRASS
+	spacing_to_other_terrain_types	1
+	land_percent					30
+	number_of_clumps				10
+	clumping_factor					30
+	set_scale_by_groups
+}
+create_terrain WATER
+{
+ 
+ start_random
+percent_chance 50
+ base_terrain                   GRASS3
+percent_chance 50
+ base_terrain                   DIRT
+end_random
+  spacing_to_other_terrain_types 2
+  land_percent                   1
+  number_of_clumps               4
+  set_avoid_player_start_areas
+  set_flat_terrain_only  
+  max_distance_to_other_zones    2
+}
+<OBJECTS_GENERATION>
+create_object PLANT
+{
+  number_of_objects                 5
+  terrain_to_place_on            WATER
+  set_scaling_to_map_size
+}
+
+/* ************ £ørd™ «ßlack Forest» ************ */
+
+<CONNECTION_GENERATION>
+
+create_connect_all_players_land 
+
+{
+  replace_terrain GRASS         GRASS
+  replace_terrain GRASS2        GRASS
+  replace_terrain GRASS3        GRASS
+  replace_terrain FOREST        GRASS 
+  terrain_cost    FOREST        8
+  terrain_cost    GRASS         3
+  terrain_size    FOREST        4       1  
+  terrain_size    GRASS         2       
+}
+
+create_connect_teams_lands
+{
+  replace_terrain GRASS         ROAD2
+  replace_terrain GRASS3        ROAD2
+  replace_terrain FOREST        ROAD2
+  terrain_cost    FOREST        7
+  terrain_cost    GRASS         2
+  terrain_cost    GRASS3        2
+  terrain_cost    ROAD2         1       1
+  terrain_size    GRASS3        1       0
+  terrain_size    FOREST        1       0
+  terrain_size    ROAD2         1       0
+}
+/* ************ £ørd™ «ßlack Forest» ************ */

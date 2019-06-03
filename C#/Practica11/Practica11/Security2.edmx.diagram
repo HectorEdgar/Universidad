@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3d5d32bc15de4886a03ed393f88999f0" Name="Diagram1" ZoomLevel="92">
+        <EntityTypeShape EntityType="securityModel1.Control" Width="1.5" PointX="0.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityModel1.ControlType" Width="1.5" PointX="0.625" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityModel1.Role" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityModel1.userAutentication" Width="1.5" PointX="2.875" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityModel1.UserAutenticationType" Width="1.5" PointX="2.875" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityModel1.UserLoginHistory" Width="1.5" PointX="5.25" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityModel1.UserRole" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityModel1.Usser" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="securityModel1.FK__Control__control__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="securityModel1.FK__UserRole__RoleID__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="securityModel1.FK__userAuten__UserA__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="securityModel1.FK__userAuten__userI__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="securityModel1.FK__UserLogin__userI__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="securityModel1.FK__UserRole__userID__1FCDBCEB" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

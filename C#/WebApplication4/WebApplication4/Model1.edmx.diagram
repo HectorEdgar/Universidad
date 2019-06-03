@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f8b1cf77426b4aceb5054dc31dc6617d" Name="Diagram1">
+        <EntityTypeShape EntityType="securityBd.Control" Width="1.5" PointX="8" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityBd.ControlType" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityBd.Role" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityBd.userAutentication" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityBd.UserAutenticationType" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityBd.UserLoginHistory" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityBd.UserRole" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="securityBd.Usser" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="securityBd.FK__Control__control__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="securityBd.FK__UserRole__RoleID__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="securityBd.FK__userAuten__UserA__22AA2996" ManuallyRouted="false" />
+        <AssociationConnector Association="securityBd.FK__userAuten__userI__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="securityBd.FK__UserLogin__userI__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="securityBd.FK__UserRole__userID__1FCDBCEB" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

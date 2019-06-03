@@ -1,0 +1,21 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\MotorGrafico_V0.2\MotorGrafico_V0.2\bin\Debug\MotorGrafico_V0.2.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\MotorGrafico_V0.2\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0.2.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\MotorGrafico_V0.2\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0._2.Form1.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\MotorGrafico_V0.2\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0._2.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\MotorGrafico_V0.2\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0.2.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\MotorGrafico_V0.2\MotorGrafico_V0.2\bin\Debug\MotorGrafico_V0.2.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\MotorGrafico_V0.2\MotorGrafico_V0.2\bin\Debug\MotorGrafico_V0.2.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\MotorGrafico_V0.2\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0.2.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\MotorGrafico_V0.2\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0.2.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\bin\Debug\MotorGrafico_V0.2.exe.config
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0.2.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0.2.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\bin\Debug\MotorGrafico_V0.2.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\bin\Debug\MotorGrafico_V0.2.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\bin\Debug\System.Net.Http.dll
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\bin\Debug\System.Net.Http.xml
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\bin\Debug\es\System.Net.Http.resources.dll
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0.2.csprojResolveAssemblyReference.cache
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0._2.Form1.resources
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0._2.Properties.Resources.resources
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\MotorGrafico_V0.2 - copia\MotorGrafico_V0.2\obj\Debug\MotorGrafico_V0.2.csproj.GenerateResource.Cache

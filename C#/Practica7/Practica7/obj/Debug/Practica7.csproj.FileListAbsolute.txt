@@ -1,0 +1,9 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica7\Practica7\bin\Debug\Practica7.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica7\Practica7\bin\Debug\Practica7.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica7\Practica7\bin\Debug\Practica7.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica7\Practica7\obj\Debug\Practica7.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica7\Practica7\obj\Debug\Practica7.Form1.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica7\Practica7\obj\Debug\Practica7.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica7\Practica7\obj\Debug\Practica7.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica7\Practica7\obj\Debug\Practica7.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica7\Practica7\obj\Debug\Practica7.pdb

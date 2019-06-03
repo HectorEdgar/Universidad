@@ -1,0 +1,10 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TestDLL\TestDLL\bin\Debug\TestDLL.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TestDLL\TestDLL\bin\Debug\TestDLL.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TestDLL\TestDLL\bin\Debug\TestDLL.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TestDLL\TestDLL\bin\Debug\ClassLibrary1.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TestDLL\TestDLL\bin\Debug\EntityFramework.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TestDLL\TestDLL\bin\Debug\ClassLibrary1.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TestDLL\TestDLL\bin\Debug\EntityFramework.xml
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TestDLL\TestDLL\obj\Debug\TestDLL.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TestDLL\TestDLL\obj\Debug\TestDLL.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\TestDLL\TestDLL\obj\Debug\TestDLL.pdb

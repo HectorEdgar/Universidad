@@ -1,0 +1,6 @@
+1.0
+2.0
+3.0
+4.0
+5.0
+La suma de los 5 numeros es: 15.0

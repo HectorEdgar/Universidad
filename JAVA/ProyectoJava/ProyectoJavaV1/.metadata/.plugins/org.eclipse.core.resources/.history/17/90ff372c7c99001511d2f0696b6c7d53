@@ -1,0 +1,96 @@
+package mx.edu.ulsaoaxaca.interfaz;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+@SuppressWarnings("serial")
+public class PanelAltaEmpleado extends JPanel {
+	
+	private JLabel jlTituloRegistro;
+	
+	private JLabel jlNombre;
+	private JTextField jtNombre;
+	
+	private JLabel jlFechaNacimiento;
+	private JTextField jtFechaNacimiento;
+	
+	private JLabel jlNss;
+	private JTextField jtNss;
+	
+	private JLabel jlSueldo;
+	private JTextField jtSueldo;
+
+	private JLabel jlDomicilio;
+	private JTextField jtDomicilio;
+	
+	
+	private JButton jbAgregar;
+	
+	public PanelAltaEmpleado(){
+		this.setLayout(null);
+		int y=50;
+		int x=20;
+		this.jlTituloRegistro = new JLabel("Registro de empleados: ");
+		this.jlTituloRegistro.setBounds(x+320, y-30, 150, 30);
+		
+		this.jlNombre = new JLabel("Nombre: ");
+		this.jlNombre.setBounds(x, y+30, 200, 30);
+		
+		this.jtNombre = new JTextField();
+		this.jtNombre.setBounds(x+200, y+30, 200, 20);
+		
+		this.jlFechaNacimiento = new JLabel("Fecha de nacimiento (yyyy-mm-dd): ");
+		this.jlFechaNacimiento.setBounds(x, y+60, 200, 30);
+		
+		this.jtFechaNacimiento = new JTextField();
+		this.jtFechaNacimiento.setBounds(x+200, y+60, 200, 20);
+		
+		
+		this.jlNss = new JLabel("Nss: ");
+		this.jlNss.setBounds(x, y+90, 200, 30);
+		
+		this.jtNss = new JTextField();
+		this.jtNss.setBounds(x+200, y+90, 200, 20);
+
+		this.jlSueldo = new JLabel("Sueldo: ");
+		this.jlSueldo.setBounds(x, y+120, 200, 30);
+		
+		this.jtSueldo = new JTextField();
+		this.jtSueldo.setBounds(x+200, y+120, 200, 20);
+		
+		this.jlDomicilio = new JLabel("Domicilio: ");
+		this.jlDomicilio.setBounds(x, y+150, 200, 30);
+		
+		this.jbAgregar = new JButton("Registrar");
+		this.jbAgregar.setBounds(x+300, y+250, 150, 30);
+		
+		this.add(jlTituloRegistro);
+		this.add(jlNombre);
+		this.add(jtNombre);
+		this.add(jlNss);
+		this.add(jtNss);
+		this.add(jlSueldo);
+		this.add(jtSueldo);
+		this.add(jlDomicilio);
+		this.add(jbAgregar);
+		this.add(jtFechaNacimiento);
+		this.add(jlFechaNacimiento);
+		
+		this.jbAgregar.addActionListener(new ActionListener(){
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				
+			}});
+		
+		
+	}
+	
+
+}

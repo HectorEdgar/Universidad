@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ProyectoNubiaV0.1.exe" version="1.0.0.0" publicKeyToken="7cec5df777ce3987" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ProyectoNubiaV0.1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ProyectoNubiaV0.1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="1116760">
+      <assemblyIdentity name="EntityFramework" version="5.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PoNKnbJ6KecCojr5W66/YqltD4tkc9jUL2AUPZPv3LU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProyectoNubiaV0.1.exe" size="96712">
+      <assemblyIdentity name="ProyectoNubiaV0.1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6VfP0ZJ6PBx83FcP1aR5frSfkzpftqXjybA53sKdf7g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Modelos\ModeloGimnasio.Context.tt" size="26169">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KNLCzkeT14oU+bgvwx9CiJfX3rF3leQLYJ9sz8eX40I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Modelos\ModeloGimnasio.tt" size="28755">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JMGByVW4kzd/7+x2A7YbH2JcZTKOsDWcKyeDRLN+CQs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ProyectoNubiaV0.1.exe.config" size="1291">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DUzvdA2cSO2H9N/pKWyCexTn1JRlhFPy3cStZoZU4ME=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EDGAR\HéctorEdgar" issuerKeyHash="95557c0156712a409cf151ce1339bf7b7daad486" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fsbDBbg6rSUxq0S9LS+28NZAsy6pfyC4H70kiOz+FRQ=</DigestValue></Reference></SignedInfo><SignatureValue>e1LRf0EqJXS90EivHneB2ah8LAOqgar9PclzE6SskUz3CUbW0RtOJzt/c/QbhikEd/CfW2N5NQbULZwnf5wKw42rFZST80NwM2UY0RHWdKv6asH/X8BHmxuYTrxCjfa0lMOx8PePoi5ldU7tdD9GqClf9vvJiDVe8wijsoZIeS4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uBj1i/FRDMimsKSvXywAIM/s3ONlywNQkCC8n1NuOaC/FdZtUTwFQnTxQnz/zFxoGCAlPMMpzTdC+VjsLB4z22LUAUrmTraWZ9uWL8VSrBR7tp3VXxLlbySYToZhbU3fHx16JSjWYBhPZ/UebdBRxn+5d0KqikLngVrhKfbS72k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1415feec8824bd1fb8207fa92eb340d6f0b62f2dbd44ab3125ad3ab805c3c67e" Description="" Url=""><as:assemblyIdentity name="ProyectoNubiaV0.1.exe" version="1.0.0.0" publicKeyToken="7cec5df777ce3987" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EDGAR\HéctorEdgar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4kC9Gbxlx7NQ2EqKqMDwCOU1N/1G1hHWX0n04rXI7Ro=</DigestValue></Reference></SignedInfo><SignatureValue>qAQyBEcqDVJRMoGu2SJe01MCFgNOFjhgvmq6TBBFmm9fMaecbyLd1EZJwn+6GS1VugOCmQwNiX5ajrefbo3y67ZAKiZbv+Fvk7O85UpDVxgpVJw25JA8tlHvowerBbto66IvSs9iIZyNz3c1ak1i/0NU8YqvR0lE33szgzD4CD8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uBj1i/FRDMimsKSvXywAIM/s3ONlywNQkCC8n1NuOaC/FdZtUTwFQnTxQnz/zFxoGCAlPMMpzTdC+VjsLB4z22LUAUrmTraWZ9uWL8VSrBR7tp3VXxLlbySYToZhbU3fHx16JSjWYBhPZ/UebdBRxn+5d0KqikLngVrhKfbS72k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQK3Fwt08ygKBEDz4Mdvrz7zANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIARQBEAEcAQQBSAFwASADpAGMAdABvAHIARQBkAGcAYQByMB4XDTE2MTEyMzIzNDQxNVoXDTE3MTEyNDA1NDQxNVowLTErMCkGA1UEAx4iAEUARABHAEEAUgBcAEgA6QBjAHQAbwByAEUAZABnAGEAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuBj1i/FRDMimsKSvXywAIM/s3ONlywNQkCC8n1NuOaC/FdZtUTwFQnTxQnz/zFxoGCAlPMMpzTdC+VjsLB4z22LUAUrmTraWZ9uWL8VSrBR7tp3VXxLlbySYToZhbU3fHx16JSjWYBhPZ/UebdBRxn+5d0KqikLngVrhKfbS72kCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA/KI2KfsUPyAkW6gbAWQzdWrgVNIImFivyOxqcZE+iOjfg6C4TgY1cMEBiELjM5TJMgyf9ep4KOEcbYSqbRExo0s14LCgMLVw9PPKO1OW6FOIYbiCwxMjSvr+p7Oqox7X8l38c4hFKmKiIll7N8jjfKHvtWW0sdEpuAu1TTR6I6w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,8 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\EntityFramework.dll
+c:\users\héctoredgar\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\EntityFramework.xml

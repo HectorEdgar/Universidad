@@ -1,0 +1,13 @@
+package mx.edu.ulsaoaxaca.interfaz;
+
+import javax.swing.JPanel;
+
+public class PanelAltaEmpleado extends JPanel {
+	
+	public PanelAltaEmpleado(){
+		
+		
+	}
+	
+
+}

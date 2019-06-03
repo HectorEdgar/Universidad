@@ -1,0 +1,49 @@
+package mx.edu.ulsaoaxaca.interfaz;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class PanelAltaEmpleado extends JPanel {
+	
+	private JLabel jlTituloRegistro;
+	
+	private JLabel jlNombre;
+	private JTextField jtNombre;
+	
+	private JLabel jlFechaNacimiento;
+	private JTextField jtFechaNacimiento;
+	
+	private JLabel jlNss;
+	private JTextField jtss;
+	
+	private JLabel jlSueldo;
+	private JTextField jtSueldo;
+
+	private JLabel jlDomicilio;
+	private JTextField jtDomicilio;
+	
+	
+	private JButton jbAgregar;
+	public PanelAltaEmpleado(){
+		
+		int y=50;
+		int x=20;
+		this.jlTituloRegistro = new JLabel("Nombre: ");
+		this.jlTituloRegistro.setBounds(20, y, 100, 30);
+		
+		this.jlNombre = new JLabel("Nombre: ");
+		this.jlNombre.setBounds(x, y+30, 100, 30);
+		
+		this.jlNombre = new JLabel("Nombre: ");
+		this.jlNombre.setBounds(x+100, y+30, 100, 30);
+		
+		
+		this.add(jlTituloRegistro);
+		
+		
+	}
+	
+
+}

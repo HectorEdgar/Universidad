@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="securityModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="securityEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ControlSet" EntityType="securityModel.Control" />
+    <EntitySet Name="RoleSet" EntityType="securityModel.Role" />
+    <EntitySet Name="UserRoleSet" EntityType="securityModel.UserRole" />
+    <EntitySet Name="UserSet" EntityType="securityModel.User" />
+    <EntitySet Name="UserAuthentificationSet" EntityType="securityModel.UserAuthentification" />
+    <EntitySet Name="UserAuthentificationTypeSet" EntityType="securityModel.UserAuthentificationType" />
+    <EntitySet Name="UserLogicHistorySet" EntityType="securityModel.UserLogicHistory" />
+    <EntitySet Name="ControlTypeSet" EntityType="securityModel.ControlType" />
+    <AssociationSet Name="UserAuthentificationTypeControl" Association="securityModel.UserAuthentificationTypeControl">
+      <End Role="UserAuthentificationType" EntitySet="UserAuthentificationTypeSet" />
+      <End Role="Control" EntitySet="ControlSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ControlType">
+    <Property Name="controlTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="controlTypeName" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Control">
+    <Key>
+      <PropertyRef Name="controlId" />
+    </Key>
+    <Property Name="controlId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ControlTypeId" Type="String" Nullable="false" />
+    <Property Name="ControlName" Type="String" Nullable="false" />
+    <Property Name="ParentControlId" Type="String" Nullable="false" />
+    <NavigationProperty Name="UserAuthentificationType" Relationship="securityModel.UserAuthentificationTypeControl" FromRole="Control" ToRole="UserAuthentificationType" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleDescription" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="UserRoleId" />
+    </Key>
+    <Property Name="UserRoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="String" Nullable="false" />
+    <Property Name="RoleId" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IsAdmin" Type="Boolean" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="IsOnline" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserAuthentification">
+    <Key>
+      <PropertyRef Name="UserAuthentificationId" />
+    </Key>
+    <Property Name="UserAuthentificationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserAuthentificationTypeId" Type="String" Nullable="false" />
+    <Property Name="UserId" Type="String" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" />
+    <Property Name="UserEmail" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserAuthentificationType">
+    <Key>
+      <PropertyRef Name="UserAuthentificationTypeId" />
+    </Key>
+    <Property Name="UserAuthentificationTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserAuthentificationTypeDescription" Type="String" Nullable="false" />
+    <NavigationProperty Name="Control" Relationship="securityModel.UserAuthentificationTypeControl" FromRole="UserAuthentificationType" ToRole="Control" />
+  </EntityType>
+  <EntityType Name="UserLogicHistory">
+    <Key>
+      <PropertyRef Name="UserLoginId" />
+    </Key>
+    <Property Name="UserLoginId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="String" Nullable="false" />
+    <Property Name="USerLoginDate" Type="String" Nullable="false" />
+  </EntityType>
+  <Association Name="UserAuthentificationTypeControl">
+    <End Type="securityModel.UserAuthentificationType" Role="UserAuthentificationType" Multiplicity="1" />
+    <End Type="securityModel.Control" Role="Control" Multiplicity="*" />
+  </Association>
+</Schema>

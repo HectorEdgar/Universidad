@@ -1,0 +1,13 @@
+public class personaTest2 {
+	public static void main(String ... args){
+		Empleado empleado1 = new Empleado();
+		empleado1.setId("1");
+		empleado1.setNombre("clark kent");
+		empleado1.setFechaNacimiento("01-01-1997");
+		empleado1.setSexo("Hombre");
+		empleado1.setNss("121");
+		empleado1.setSueldo("1000");
+		
+		System.out.printf("%s ",empleado1.desplegarInformacion());
+	}
+}

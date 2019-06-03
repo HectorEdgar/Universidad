@@ -1,0 +1,15 @@
+c:\users\alumnos\documents\visual studio 2012\Projects\ConectarBase\ConectarBase\bin\Debug\ConectarBase.exe.config
+F:\ConectarBase\ConectarBase\bin\Debug\ConectarBase.exe.config
+F:\ConectarBase\ConectarBase\bin\Debug\ConectarBase.exe
+F:\ConectarBase\ConectarBase\bin\Debug\ConectarBase.pdb
+F:\ConectarBase\ConectarBase\bin\Debug\MySql.Data.dll
+F:\ConectarBase\ConectarBase\obj\Debug\ConectarBase.csprojResolveAssemblyReference.cache
+F:\ConectarBase\ConectarBase\obj\Debug\ConectarBase.exe
+F:\ConectarBase\ConectarBase\obj\Debug\ConectarBase.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ConectarBase\ConectarBase\bin\Debug\ConectarBase.exe.config
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ConectarBase\ConectarBase\obj\Debug\ConectarBase.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ConectarBase\ConectarBase\obj\Debug\ConectarBase.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ConectarBase\ConectarBase\bin\Debug\ConectarBase.exe
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ConectarBase\ConectarBase\bin\Debug\ConectarBase.pdb
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ConectarBase\ConectarBase\bin\Debug\MySql.Data.dll
+C:\Users\HéctorEdgar\Documents\Visual Studio 2015\Projects\ConectarBase\ConectarBase\obj\Debug\ConectarBase.csprojResolveAssemblyReference.cache

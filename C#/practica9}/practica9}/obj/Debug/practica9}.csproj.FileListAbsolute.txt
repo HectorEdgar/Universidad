@@ -1,0 +1,9 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practica9}\practica9}\bin\Debug\practica9}.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practica9}\practica9}\bin\Debug\practica9}.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practica9}\practica9}\bin\Debug\practica9}.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practica9}\practica9}\obj\Debug\practica9}.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practica9}\practica9}\obj\Debug\practica9_.Form1.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practica9}\practica9}\obj\Debug\practica9_.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practica9}\practica9}\obj\Debug\practica9}.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practica9}\practica9}\obj\Debug\practica9}.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\practica9}\practica9}\obj\Debug\practica9}.pdb

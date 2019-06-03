@@ -1,0 +1,8 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica5ModoDesAtendido\Practica5ModoDesAtendido\bin\Debug\Practica5ModoDesAtendido.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica5ModoDesAtendido\Practica5ModoDesAtendido\bin\Debug\Practica5ModoDesAtendido.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica5ModoDesAtendido\Practica5ModoDesAtendido\bin\Debug\Practica5ModoDesAtendido.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica5ModoDesAtendido\Practica5ModoDesAtendido\obj\Debug\Practica5ModoDesAtendido.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica5ModoDesAtendido\Practica5ModoDesAtendido\obj\Debug\Practica5ModoDesAtendido.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica5ModoDesAtendido\Practica5ModoDesAtendido\obj\Debug\Practica5ModoDesAtendido.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica5ModoDesAtendido\Practica5ModoDesAtendido\obj\Debug\Practica5ModoDesAtendido.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Practica5ModoDesAtendido\Practica5ModoDesAtendido\obj\Debug\Practica5ModoDesAtendido.pdb

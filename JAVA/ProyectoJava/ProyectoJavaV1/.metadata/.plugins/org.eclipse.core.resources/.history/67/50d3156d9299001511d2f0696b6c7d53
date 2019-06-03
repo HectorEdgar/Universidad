@@ -1,0 +1,29 @@
+package mx.edu.ulsaoaxaca.Dao;
+
+import mx.edu.ulsaoaxaca.Dominio.Empleado;
+
+
+public class EmpleadoDaoImpl implements EmpleadoDao{
+
+
+	@Override
+	public int GrabarEmpleado(Empleado emp) {
+		String nombre = emp.getNombre();
+		String fecha = emp.getFechaNacimiento();
+		String nss = emp.getNss();
+		String sexo = emp.getSexo();
+		String sueldo = emp.getSueldo();
+		String id=emp.getId();
+		
+		String consulta1 = "INSERT INTO PERSONAS(PERS_NOMBRE," + "PERS_FECHA_NACIMIENTO," + "PERS_SEXO," +"PERSONA_ID) "
+				+ "VALUES('"+nombre+"','"+fecha+"','"+sexo+"','"+id+ "'"+");";
+		String consulta2="INSERT INTO EMPLEADOS(EMPL_PERSONA_ID,EMPLEADO_ID,EMPL_SUELDO,EMPL_NSS) +"
+				+ "VALUES("+id+","+id+","+sueldo+",'"+nss+"'";
+		String consulta3=""		
+
+		DataSource data = new DataSourceImpl();
+		return data.ejecutarActualizacion(consulta1);
+		
+	}
+
+}

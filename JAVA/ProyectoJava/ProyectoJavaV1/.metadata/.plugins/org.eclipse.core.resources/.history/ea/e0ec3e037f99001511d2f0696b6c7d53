@@ -1,0 +1,142 @@
+package mx.edu.ulsaoaxaca.interfaz;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+@SuppressWarnings("serial")
+public class PanelAltaEmpleado extends JPanel {
+	
+	private JLabel jlTituloRegistro;
+	
+	private JLabel jlNombre;
+	private JTextField jtNombre;
+	
+	private JLabel jlFechaNacimiento;
+	private JTextField jtFechaNacimiento;
+	
+	private JLabel jlNss;
+	private JTextField jtNss;
+	
+	private JLabel jlSueldo;
+	private JTextField jtSueldo;
+
+	private JLabel jlDomicilioParticular;
+
+	private JLabel jlDomicilioParticularCalle;
+	private JTextField jtDomicilioParticularCalle;
+
+	private JLabel jlDomicilioParticularColonia;
+	private JTextField jtDomicilioParticularColonia;
+	
+	private JLabel jlDomicilioParticularEntidadFederativa;
+	private JTextField jtDomicilioParticularEntidadFederativa;
+	
+	private JLabel jlDomicilioParticularMunicipio;
+	private JTextField jtDomicilioParticularMunicipio;
+	
+	private JLabel jlDomicilioParticularCodigoPostal;
+	private JTextField jtDomicilioParticularCodigoPostal;
+
+	
+	
+	
+	private JButton jbAgregar;
+	
+	public PanelAltaEmpleado(){
+		this.setLayout(null);
+		int y=50;
+		int x=20;
+		this.jlTituloRegistro = new JLabel("Registro de empleados: ");
+		this.jlTituloRegistro.setBounds(x+320, y-30, 150, 30);
+		
+		this.jlNombre = new JLabel("Nombre: ");
+		this.jlNombre.setBounds(x, y+30, 250, 20);		
+		this.jtNombre = new JTextField();
+		this.jtNombre.setBounds(x+300, y+30, 200, 20);
+		
+		this.jlFechaNacimiento = new JLabel("Fecha de nacimiento (yyyy-mm-dd): ");
+		this.jlFechaNacimiento.setBounds(x, y+60, 250, 20);		
+		this.jtFechaNacimiento = new JTextField();
+		this.jtFechaNacimiento.setBounds(x+300, y+60, 200, 20);
+		
+		this.jlNss = new JLabel("Nss: ");
+		this.jlNss.setBounds(x, y+90, 250, 20);		
+		this.jtNss = new JTextField();
+		this.jtNss.setBounds(x+300, y+90, 200, 20);
+
+		this.jlSueldo = new JLabel("Sueldo: ");
+		this.jlSueldo.setBounds(x, y+120, 250, 20);		
+		this.jtSueldo = new JTextField();
+		this.jtSueldo.setBounds(x+300, y+120, 200, 20);
+		
+		this.jlDomicilioParticular = new JLabel("Domicilio Particular: ");
+		this.jlDomicilioParticular.setBounds(x, y+180, 250, 20);
+		
+		this.jlDomicilioParticularCalle = new JLabel("Calle : ");
+		this.jlDomicilioParticularCalle.setBounds(x, y+210, 250, 20);
+		this.jtDomicilioParticularCalle = new JTextField();
+		this.jtDomicilioParticularCalle.setBounds(x+300, y+210, 200, 20);
+		
+		this.jlDomicilioParticularColonia = new JLabel("Colonia : ");
+		this.jlDomicilioParticularColonia.setBounds(x, y+240, 250, 20);
+		this.jtDomicilioParticularColonia = new JTextField();
+		this.jtDomicilioParticularColonia.setBounds(x+300, y+240, 200, 20);
+		
+		this.jlDomicilioParticularEntidadFederativa = new JLabel("Entidad federativa : ");
+		this.jlDomicilioParticularEntidadFederativa.setBounds(x, y+270, 250, 20);
+		this.jtDomicilioParticularEntidadFederativa = new JTextField();
+		this.jtDomicilioParticularEntidadFederativa.setBounds(x+300, y+270, 200, 20);
+		
+		this.jlDomicilioParticularMunicipio = new JLabel("Municipio : ");
+		this.jlDomicilioParticularMunicipio.setBounds(x, y+300, 250, 20);
+		this.jtDomicilioParticularMunicipio = new JTextField();
+		this.jtDomicilioParticularMunicipio.setBounds(x+300, y+300, 200, 20);
+		
+		this.jlDomicilioParticularCodigoPostal = new JLabel("Codigo postal : ");
+		this.jlDomicilioParticularCodigoPostal.setBounds(x, y+330, 250, 20);
+		this.jtDomicilioParticularCodigoPostal = new JTextField();
+		this.jtDomicilioParticularCodigoPostal.setBounds(x+330, y+300, 200, 20);
+		
+		
+		
+		this.jbAgregar = new JButton("Registrar");
+		this.jbAgregar.setBounds(x+600, y+250, 150, 30);
+		
+		this.add(jlTituloRegistro);
+		this.add(jlNombre);
+		this.add(jtNombre);
+		this.add(jlNss);
+		this.add(jtNss);
+		this.add(jlSueldo);
+		this.add(jtSueldo);
+		this.add(jlDomicilioParticular);
+		this.add(jbAgregar);
+		this.add(jtFechaNacimiento);
+		this.add(jlFechaNacimiento);
+		this.add(jlDomicilioParticularCalle);
+		this.add(jtDomicilioParticularCalle);
+		this.add(jlDomicilioParticularColonia);
+		this.add(jtDomicilioParticularColonia);
+		this.add(jlDomicilioParticularEntidadFederativa);
+		this.add(jtDomicilioParticularEntidadFederativa);
+		this.add(jlDomicilioParticularMunicipio);
+		this.add(jtDomicilioParticularMunicipio);
+		this.add(jlDomicilioParticularCodigoPostal);
+		this.add(jtDomicilioParticularCodigoPostal);
+		this.jbAgregar.addActionListener(new ActionListener(){
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				
+			}});
+		
+		
+	}
+	
+
+}

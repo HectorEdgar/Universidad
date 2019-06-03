@@ -1,0 +1,9 @@
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Metodos de encriptacion\Metodos de encriptacion\bin\Debug\Metodos de encriptacion.exe.config
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Metodos de encriptacion\Metodos de encriptacion\bin\Debug\Metodos de encriptacion.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Metodos de encriptacion\Metodos de encriptacion\bin\Debug\Metodos de encriptacion.pdb
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Metodos de encriptacion\Metodos de encriptacion\obj\Debug\Metodos de encriptacion.csprojResolveAssemblyReference.cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Metodos de encriptacion\Metodos de encriptacion\obj\Debug\Metodos_de_encriptacion.Form1.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Metodos de encriptacion\Metodos de encriptacion\obj\Debug\Metodos_de_encriptacion.Properties.Resources.resources
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Metodos de encriptacion\Metodos de encriptacion\obj\Debug\Metodos de encriptacion.csproj.GenerateResource.Cache
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Metodos de encriptacion\Metodos de encriptacion\obj\Debug\Metodos de encriptacion.exe
+c:\users\héctoredgar\documents\visual studio 2015\Projects\Metodos de encriptacion\Metodos de encriptacion\obj\Debug\Metodos de encriptacion.pdb

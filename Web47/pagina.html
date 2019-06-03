@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="jquery.js"> </script>
+    <link rel="stylesheet" href="estilo1.css" media="screen" title="no title" charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="div1">
+      <h1 id="c1"></h1>
+    </div>
+    <input type="button" id="button1" name="name" value="OK">
+    <script>
+    $("#button1").click(function(){
+
+      var ventana_ancho = $(window).width();
+      	var ventana_alto = $(window).height();
+
+      var alto = $( document ).height();
+      var ancho = $( document ).width();
+
+       p1="<p> AlturaVentana = "+ventana_alto+" px; AnchuraVentana = "+ventana_ancho+" px.</p>";
+       p2="<p> AlturaDocumento = "+alto+" px; AnchuraDocumento = "+ancho+" px.</p>";
+       $("#div1").append(p1);
+       $("#div1").append(p2);
+
+    });
+    </script>
+
+
+</html>
